@@ -45,7 +45,7 @@ body {
 
   display: grid;
   grid-template-rows: min-content min-content min-content;
-  row-gap: 1rem;
+  row-gap: 2.35rem;
 }
 
 .sidebar-container svg {
@@ -53,7 +53,7 @@ body {
 }
 
 .branding {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 500;
 
   display: flex;
