@@ -42,13 +42,14 @@ body {
   color: #eff6ff;
   padding: 2rem;
   grid-area: row-start / col-start / row-end / sidebar-end;
+  position: relative;
 
   display: grid;
   grid-template-rows: min-content min-content min-content;
   row-gap: 2.35rem;
 }
 
-.sidebar-container svg {
+.sidebar-container li svg {
   margin-right: 1.35rem;
 }
 
@@ -58,6 +59,12 @@ body {
 
   display: flex;
   align-items: center;
+  position: relative;
+  right: 15px;
+}
+
+.branding svg {
+  margin-right: 0.8rem;
 }
 
 .nav-menu {
