@@ -33,8 +33,37 @@ body {
 
 .header-container {
   background-color: #3b82f6;
-  padding: 5rem;
+  padding: 2rem;
   grid-area: row-start / main-col-start;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.sub-header-container {
+  display: flex;
+}
+
+.sub-header-container.bottom-header {
+  justify-content: space-between;
+}
+
+.sub-head-item.welcome {
+  display: flex;
+  align-items: center;
+}
+
+.search-box-wrapper {
+  flex: 1;
+}
+
+.sub-head-item {
+  margin-right: 1.35rem;
+}
+
+.search-box-wrapper input[type="text"] {
+  width: 80%;
 }
 
 .sidebar-container {
