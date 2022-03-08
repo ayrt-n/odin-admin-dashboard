@@ -32,7 +32,7 @@ body {
 }
 
 .header-container {
-  background-color: #3b82f6;
+  background-color: #fff;
   padding: 2rem;
   grid-area: row-start / main-col-start;
 
@@ -68,11 +68,16 @@ body {
   border: none;
   border-radius: 0.75rem;
   padding-left: 0.75rem;
+  background-color: #e2e8f0;
+}
+
+.header-container button {
+  background-color: #1992d4;
 }
 
 .sidebar-container {
-  background-color: #1e3a8a;
-  color: #eff6ff;
+  background-color: #0284c7;
+  color: #fff;
   padding: 2rem;
   grid-area: row-start / col-start / row-end / sidebar-end;
   position: relative;
@@ -116,7 +121,7 @@ body {
 }
 
 .main-content-container {
-  background-color: #a5b4fc;
+  background-color: #e2e8f0;
   padding: 5rem;
   grid-area: main-row-start / main-col-start;
 }
