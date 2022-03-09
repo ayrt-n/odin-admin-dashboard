@@ -43,6 +43,7 @@ body {
 
 .sub-header-container {
   display: flex;
+  align-items: center;
 }
 
 .sub-header-container.bottom-header {
@@ -73,6 +74,28 @@ body {
 
 .header-container button {
   background-color: #1992d4;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.65rem;
+  width: 5rem;
+  border: none;
+  border-radius: 1.35rem;
+}
+
+img.profile {
+  border-radius: 50%;
+  border: none;
+}
+
+.medium {
+  height: 50px;
+  width: 50px;
+}
+
+.large {
+  height: 75px;
+  width: 75px;
 }
 
 .sidebar-container {
