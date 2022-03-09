@@ -205,3 +205,9 @@ p.project-description {
 div.project {
   flex: 1;
 }
+
+h1.main-header {
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
