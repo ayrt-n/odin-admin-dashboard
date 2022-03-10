@@ -169,6 +169,10 @@ img.profile {
   align-items: center;
 }
 
+.sidebar-container li:hover {
+  color: #ddd;
+}
+
 .main-content-container {
   background-color: #e2e8f0;
   padding: 2rem;
