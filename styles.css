@@ -27,7 +27,7 @@ body {
   width: 100vw;
   min-height: 100vh;
   display: grid;
-  grid-template-rows: [row-start] 185px [header-end main-row-start] 1fr [row-end];
+  grid-template-rows: [row-start] 200px [header-end main-row-start] 1fr [row-end];
   grid-template-columns: [col-start] 300px [sidebar-end main-col-start] minmax(900px, 1fr) [col-end];
 }
 
@@ -35,6 +35,10 @@ body {
   background-color: #fff;
   padding: 2rem;
   grid-area: row-start / main-col-start;
+  position: relative;
+  z-index: 10;
+
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 2px;
 
   display: flex;
   flex-direction: column;
@@ -47,6 +51,7 @@ body {
 }
 
 .sub-header-container.bottom-header {
+  margin-top: 2rem;
   justify-content: space-between;
 }
 
@@ -61,6 +66,15 @@ body {
 
 .sub-head-item {
   margin-right: 1.35rem;
+  font-weight: 500;
+}
+
+.welcome-msg {
+  font-size: 0.9rem;
+}
+
+.sub-head-item > h1 {
+  font-size: 1.4rem;
 }
 
 .search-box-wrapper input[type="text"] {
@@ -78,9 +92,13 @@ body {
   font-size: 1rem;
   font-weight: 600;
   padding: 0.65rem;
-  width: 5rem;
+  width: 6rem;
   border: none;
   border-radius: 1.35rem;
+}
+
+.sub-head-item button+button {
+  margin-left: 1.5rem;
 }
 
 img.profile {
@@ -168,7 +186,7 @@ img.profile {
   background-color: #fff;
   padding: 1.5rem;
   border-radius: 6px;
-  box-shadow: rgba(0, 0, 0, 0.08) 1px 4px 4px;
+  box-shadow: rgba(0, 0, 0, 0.08) 1px 4px 2px;
 
   display: flex;
   flex-direction: column;
