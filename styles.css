@@ -227,3 +227,20 @@ hr {
   font-size: 0.9rem;
   color: #888;
 }
+
+.trending-item {
+  display: flex;
+  align-items: center;
+}
+
+.trending-item > img {
+  margin-right: 1rem;
+}
+
+.trending-profile> p {
+  color: #888;
+}
+
+.trending-item + .trending-item {
+  margin-top: 2rem;
+}
