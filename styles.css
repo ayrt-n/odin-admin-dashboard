@@ -97,6 +97,14 @@ body {
   border-radius: 1.35rem;
 }
 
+.header-container button:hover {
+  background-color: #1683bd;
+}
+
+.header-container button:active {
+  background-color: #19a0e8;
+}
+
 .sub-head-item button+button {
   margin-left: 1.5rem;
 }
