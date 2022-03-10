@@ -23,6 +23,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .wrapper {
   width: 100vw;
   min-height: 100vh;
@@ -86,7 +90,14 @@ body {
   background-color: #e2e8f0;
 }
 
-.header-container button {
+.top-header button[type="submit"] {
+  border: none;
+  background-color: #fff;
+  position: relative;
+  top: 2px;
+}
+
+.bottom-header button {
   background-color: #1992d4;
   color: #fff;
   font-size: 1rem;
@@ -97,11 +108,11 @@ body {
   border-radius: 1.35rem;
 }
 
-.header-container button:hover {
+.bottom-header button:hover {
   background-color: #1683bd;
 }
 
-.header-container button:active {
+.bottom-header button:active {
   background-color: #19a0e8;
 }
 
